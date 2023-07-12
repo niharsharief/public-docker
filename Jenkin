@@ -1,0 +1,8 @@
+pipeline {
+    agent any 
+        stages{
+             step('git'){
+             'https://github.com/niharsharief/dockerfile.git'
+         }
+    }
+}
