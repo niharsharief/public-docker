@@ -1,8 +1,10 @@
 pipeline {
     agent any 
         stages{
-             step('git'){
+             stage('git') {
+              steps {
              'https://github.com/niharsharief/dockerfile.git'
          }
     }
+}
 }
